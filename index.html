@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2 | COMP1073 Client-Side JavaScript</title>
+    <!-- Link to custom CSS -->
+    <link rel="styleSheet" href="./css/main.css"/>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Link to jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Link to Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Link to custom JavaScript file with 'defer' attribute for deferred execution -->
+    <script src="./js/scripts.js" defer></script>
+</head>
+
+<body class="container">
+    <!-- Page heading -->
+    <h1>Image gallery</h1>
+    <!-- Placeholder for student ID -->
+    <div>
+        <p id="myStudentId"></p>
+    </div>
+    <!-- Form group for entering a number -->
+    <div class="form-group">
+        <label for="customNumber">Enter number from 1 to 100:</label>
+        <!-- Input field for entering a number -->
+        <input class="form-control" id="customNumber" type="number" placeholder="" />
+        <!-- Placeholder for error text -->
+        <div class="" id="errorText" ></div>
+    </div>
+    <!-- Button group for color change buttons -->
+    <div class="buttonGroup">
+        <!-- Button to change custom color -->
+        <button class="custColor btn btn-primary">Change custom color</button>
+        <!-- Button to change random color -->
+        <button class="randColor btn btn-secondary">Change random color</button>
+    </div>
+    <!-- Image selector dropdown -->
+    <div class="col-md-12 imageSelector ">
+        <label for="imageSelect">Select Image</label>
+        <!-- Dropdown for selecting an image -->
+        <select id="imageSelect">
+            <option value="">Please choose…</option>
+        </select>
+    </div>
+    <!-- Placeholder for displaying images -->
+    <div>
+        <!-- Image element -->
+        <img class="img-responsive" id="images" src="" alt=""></img>
+    </div>
+</body>
+
+</html>

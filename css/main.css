@@ -1,0 +1,28 @@
+/*
+Make images fit its container
+*/
+#images
+{
+    width: 100%;
+}
+/*
+adds some padding to the top of the image
+*/
+.imageSelector
+{
+    padding-top: 3%;
+}
+/*
+adds some padding so nothing clums together
+*/
+.buttonGroup
+{
+    padding-top 3%;
+}
+/*
+align the title
+*/
+h1
+{
+    text-align: center;
+}
